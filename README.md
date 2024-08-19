@@ -1,4 +1,4 @@
-# ChatGPT Interface
+# my-chatgpt-app
 
 这是一个使用 React 和 Material-UI 构建的 ChatGPT 聊天界面应用。用户可以通过输入 OpenAI 的 API Key 来与 ChatGPT 进行对话。
 
@@ -15,8 +15,8 @@
 1. 克隆仓库
 
    ```bash
-   git clone https://github.com/yourusername/chatgpt-interface.git
-   cd chatgpt-interface
+   git clone https://github.com/hanwei808/my-chatgpt-app.git
+   cd my-chatgpt-app
    ```
 
 2. 安装依赖
@@ -33,7 +33,7 @@
 npm run dev
 ```
 
-应用将在浏览器中自动打开，通常是 `http://localhost:5173`。
+应用将在浏览器中自动打开，通常是 [http://localhost:5173](http://localhost:5173)。
 
 ## 使用
 
@@ -47,7 +47,6 @@ npm run dev
 ```plaintext
 chatgpt-interface/
 ├── public/                  # 公共文件夹
-│   ├── index.html           # HTML 模板
 │   └── favicon.ico          # 网站图标
 ├── src/                     # 源代码文件夹
 │   ├── components/          # 组件文件夹
@@ -55,8 +54,9 @@ chatgpt-interface/
 │   ├── assets/              # 静态资源文件夹
 │   │   └── three-dots.svg   # 加载图标
 │   ├── App.tsx              # 主要应用组件
-│   ├── index.tsx            # 入口文件
+│   ├── main.tsx             # 入口文件
 │   └── ...                  # 其他文件
+├── index.html               # HTML 模板
 ├── package.json             # 项目配置文件
 └── README.md                # 项目文档
 ```
